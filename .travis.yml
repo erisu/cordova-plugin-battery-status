@@ -18,28 +18,98 @@ matrix:
   include:
     - env: PLATFORM=browser-chrome
       os: linux
+      node_js: 6
+      language: node_js
+
+    - env: PLATFORM=browser-chrome
+      os: linux
+      node_js: 8
+      language: node_js
+
+    - env: PLATFORM=browser-chrome
+      os: linux
+      node_js: 10
       language: node_js
     
     - env: PLATFORM=browser-firefox
       os: linux
+      node_js: 6
       language: node_js
     
+    - env: PLATFORM=browser-firefox
+      os: linux
+      node_js: 8
+      language: node_js
+    
+    - env: PLATFORM=browser-firefox
+      os: linux
+      node_js: 10
+      language: node_js
+      
     - env: PLATFORM=browser-safari
       os: linux
+      node_js: 6
+      language: node_js
+
+    - env: PLATFORM=browser-safari
+      os: linux
+      node_js: 8
+      language: node_js
+
+    - env: PLATFORM=browser-safari
+      os: linux
+      node_js: 10
       language: node_js
     
     - env: PLATFORM=browser-edge
       os: linux
+      node_js: 6
+      language: node_js
+
+    - env: PLATFORM=browser-edge
+      os: linux
+      node_js: 8
+      language: node_js
+
+    - env: PLATFORM=browser-edge
+      os: linux
+      node_js: 10
       language: node_js
     
     - env: PLATFORM=ios-9.3
       os: osx
       osx_image: xcode7.3
+      node_js: 6
+      language: node_js
+
+    - env: PLATFORM=ios-9.3
+      os: osx
+      osx_image: xcode7.3
+      node_js: 8
+      language: node_js
+
+    - env: PLATFORM=ios-9.3
+      os: osx
+      osx_image: xcode7.3
+      node_js: 10
       language: node_js
     
     - env: PLATFORM=ios-10.0
       os: osx
       osx_image: xcode7.3
+      node_js: 6
+      language: node_js
+
+    - env: PLATFORM=ios-10.0
+      os: osx
+      osx_image: xcode7.3
+      node_js: 8
+      language: node_js
+
+    - env: PLATFORM=ios-10.0
+      os: osx
+      osx_image: xcode7.3
+      node_js: 10
       language: node_js
     
     - env: PLATFORM=android-4.4
